@@ -1,0 +1,13 @@
+package com.bidly;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class BidlyApplication {
+
+    static void main(String[] args) {
+        SpringApplication.run(BidlyApplication.class, args);
+    }
+
+}
